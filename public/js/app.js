@@ -15,7 +15,7 @@ weatherForm.addEventListener("submit", (e) => {
         messageOne.textContent = data.location;
         messageTwo.textContent =
           data.forecast.weather +
-          " with a temperature of " +
+          " right now , with a temperature of " +
           data.forecast.temperature +
           " degrees and it feels like " +
           data.forecast.feelTemperature +
